@@ -1,0 +1,323 @@
+*{
+    margin: 0;
+    padding: 0;
+      
+}
+
+body{
+    background-color: #222;
+    font-family: 'Gilroy-regular', sans-serif;
+    background-image: url(/img/shumm.png);
+}
+
+section {
+    padding: calc(40px + (140 - 40) * ((100vw - 375px) / (1280 - 375)));
+    
+}
+
+.misamokat{
+
+}
+
+
+
+.mismok{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.misamokat{
+   
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    margin-left: 50px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    width: 100%;
+}
+
+.buy-button{
+    top: 40px;
+    left: 1178px;
+    padding: 15px 35px 15px 35px;
+    gap: 10px;
+    border-radius: 65px;
+    font-weight: 600;
+    font-family: 'Gilroy-regular'
+}
+
+#scooter{
+    
+    height: 100%
+}
+
+
+.logo{
+    width: 60px;
+    height: 39px;
+    top: 47px;
+    left: 140px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    width: 100%;
+}
+
+nav ul li {
+    margin-left: 30px; 
+
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+h1{
+    font-family: 'Gilroy-regular', sans-serif;
+    font-weight: 600;
+    font-size: calc(40px + (80 - 40) * ((100vw - 375px) / (1280 - 375)));
+    font-weight: 600;
+    line-height: calc(48px + (80 - 48) * ((100vw - 375px) / (1280 - 375)));
+    color:#F1F1F1;
+    margin-top: 100px;
+}
+
+
+.main-content p{
+    font-size: calc(20px + (30 - 20) * ((100vw - 375px) / (1280 - 375)));; 
+    font-weight: 600;
+    line-height: calc(24px + (36 - 24) * ((100vw - 375px) / (1280 - 375)));;
+    color: #FF4C0D;
+
+    margin-top: 30px;
+    width: 45%;
+
+}
+
+#scooter {
+    width: 400px;
+    margin-top: 50px;
+}
+
+.toggle{
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+.electroinfo{
+
+}
+
+h2{
+    color:#F1F1F1;
+    font-size: calc(30px + (45 - 30) * ((100vw - 375px) / (1280 - 375)));;
+    font-weight: 500;
+    line-height: calc(33px + (49.5 - 33) * ((100vw - 375px) / (1280 - 375)));;
+    width: 90%;
+    text-align: left;
+    margin-bottom: 60px;
+}
+
+h3{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 10px;
+}
+
+.info{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    color:#f1f1f15f;
+    transition: 200ms;
+}
+
+.speed:hover{
+    color:#F1F1F1;
+    font-weight:600;
+}
+
+.energy:hover{
+    color:#F1F1F1;
+    font-weight:600;
+}
+
+.battery:hover{
+    color:#F1F1F1;
+    font-weight:600;
+}
+
+.speed, .energy, .battery{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    flex-basis: 100px;
+}
+
+hr{
+   width: 360px;
+   margin-bottom: 10px;
+}
+
+.info span{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+}
+
+
+
+#energyy{
+    margin-left: 15px;
+}
+
+#speeed{
+    margin-top: 25px;
+}
+
+
+
+
+
+
+.photosec{
+    background-image: url('/img/miphoto.svg');
+    background-repeat: no-repeat;
+}
+
+.photosec img{
+    margin-top: 10px;
+}
+
+.photosec h2 {
+    padding-top: 120px;
+    font-weight: 500;
+    font-size: calc(30px + (45 - 30) * ((100vw - 375px) / (1280 - 375)));;
+}
+
+.photosec p{
+font-size: 14px;
+font-weight: 400;
+line-height: 21px;
+color:#F1F1F1;
+width: 36%;
+margin-top: 0px;
+}
+
+.photosectext{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.design{
+
+}
+
+
+.design h2{
+    color:#FF4C0D;
+    width: 70%;
+    font-weight: 500;
+}
+
+.designBox{
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 21px;
+    color:#F1F1F1;
+}
+
+.minimalistic p{
+    width: 80%;
+}
+
+.minimalistic{
+    background-color: rgba(0, 0, 0, 0.527);
+    border-radius: 15px;
+    padding-bottom: 30px;
+    padding-left: 30px;
+}
+
+.minimalistic img{
+    width: 560px;
+height: 407px;
+}
+
+.speedofscooter{
+    background-image:url(/img/skorost.png);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 15px;
+    padding-top: 415px;
+    padding-left: 30px;
+}
+
+.speedofscooter p{
+    width: 90%;
+}
+
+
+
+
+
+
+
+
+.safetyBox{
+    display: flex;
+    color:#F1F1F1;
+    gap: 40px;
+    width: 50%;
+}
+
+.safetyBox span{
+    width: 50%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+  
+
